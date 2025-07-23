@@ -1,4 +1,3 @@
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys
@@ -22,7 +21,9 @@ def plot_cv(filename):
         print(f"Error processing file: {e}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python plot_cv.py <path_to_cv_data.txt>")
+    if len(sys.argv) == 2:
+        filepath = sys.argv[1]
     else:
-        plot_cv(sys.argv[1])
+        filepath = input("Enter path to CV data file: ").strip()
+    
+    plot_cv(filepath)
