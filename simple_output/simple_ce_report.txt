@@ -1,0 +1,18 @@
+File	Plating (mAs)	Stripping (mAs)	CE (%)
+1M_ZnCl2_1mVs_trial_1_C16.txt	2356.3092	269.9342	11.46
+1M_ZnCl2_100mVs_trial_1_C16.txt	18.5271	19.5168	105.34
+1M_ZnCl2_55mVs_trial_1_C16.txt	36.2983	26.3193	72.51
+1M_ZnCl2_45mVs_trial_1_C16.txt	45.5714	32.9336	72.27
+1M_ZnCl2_80mVs_trial_1_C16.txt	23.8866	25.8742	108.32
+1M_ZnCl2_25mVs_trial_1_C16.txt	85.5862	83.9256	98.06
+1M_ZnCl2_35mVs_trial_1_C16.txt	59.7525	59.6242	99.79
+1M_ZnCl2_90mVs_trial_1_C16.txt	20.9478	15.8817	75.82
+1M_ZnCl2_5mVs_trial_1_C16.txt	451.0103	198.1474	43.93
+1M_ZnCl2_15mVs_trial_1_C16.txt	145.5942	28.8252	19.80
+1M_ZnCl2_60mVs_trial_1_C16.txt	32.9393	33.0517	100.34
+1M_ZnCl2_70mVs_trial_1_C16.txt	27.8510	30.2088	108.47
+1M_ZnCl2_40mVs_trial_1_C16.txt	51.7898	51.6176	99.67
+1M_ZnCl2_50mVs_trial_1_C16.txt	40.5010	40.9380	101.08
+1M_ZnCl2_30mVs_trial_1_C16.txt	70.4027	51.2741	72.83
+1M_ZnCl2_20mVs_trial_1_C16.txt	Error: cannot select an axis to squeeze out which has size not equal to one
+1M_ZnCl2_10mVs_trial_1_C16.txt	220.2573	206.2944	93.66
