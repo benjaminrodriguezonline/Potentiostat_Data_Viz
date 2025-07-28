@@ -4,17 +4,17 @@ import sys
 import os
 from datetime import datetime
 
-def plot_cv(filename):
+def plot_ct(filename):
     try:
         # Load the data from the text file
         df = pd.read_csv(filename, sep='\t', skiprows=1, names=["Ewe_V", "I_mA", "time_s"])
 
-        # Plot Current vs Voltage
+        # Plot Current vs Time
         plt.figure(figsize=(10, 6))
-        plt.plot(df["Ewe_V"], df["I_mA"], color='blue')
-        plt.xlabel("Potential vs Ag/AgCl (V)")
+        plt.plot(df["time_s"], df["I_mA"], color='blue')
+        plt.xlabel("Time (s)")
         plt.ylabel("Current (mA)")
-        plt.title("Cyclic Voltammetry Curve")
+        plt.title("Current vs Time")
         plt.grid(True)
         plt.tight_layout()
         # Prepare output filename
@@ -35,4 +35,4 @@ if __name__ == "__main__":
     else:
         filepath = input("Enter path to CV data file: ").strip()
     
-    plot_cv(filepath)
+    plot_ct(filepath)

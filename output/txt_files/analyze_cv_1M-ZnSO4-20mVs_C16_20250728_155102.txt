@@ -1,0 +1,2 @@
+Oxidation Charge: 32.2459 mC
+Reduction Charge: -32.7357 mC
