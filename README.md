@@ -1,4 +1,3 @@
-asd
 # Potentiostat Data Visualization & Analysis
 
 This project provides a suite of Python scripts to analyze and visualize data collected from cyclic voltammetry (CV) experiments using a three-electrode potentiostat setup. It is designed for both research and educational use, especially for introducing high school and undergraduate students to electrochemical data analysis.
@@ -48,11 +47,12 @@ output/txt_files/analyze_cv_1M-ZnSO4-20mVs_C16_20250728_155102.txt
 output/plots/plot_cv_1M-ZnSO4-20mVs_C16_20250728_154337.png
 ```
 
+
 ## ⚙️ Setup Instructions
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-username/Potentiostat_Data_Viz.git
+   git clone https://github.com/benjaminrodriguezonline/Potentiostat_Data_Viz.git
    cd Potentiostat_Data_Viz
    ```
 
@@ -71,6 +71,10 @@ output/plots/plot_cv_1M-ZnSO4-20mVs_C16_20250728_154337.png
    ```bash
    python src/analyze_cv.py
    ```
+
+## 📦 Download
+
+Don’t want to clone with Git? You can [download the latest version as a .zip file](https://github.com/benjaminrodriguezonline/Potentiostat_Data_Viz/archive/refs/heads/main.zip) and get started immediately.
 
 ## 🧠 Educational Use
 
